@@ -1,15 +1,18 @@
+
 body {
 	
 	
 	background: #c4b792;
 	text-transform: uppercase;
 	background-image: url('../IMAGES/busart1.jpg');
+
     height: 500px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
 }
+
 #container{
 	width: 360px;
 	height: 550px;
@@ -82,3 +85,4 @@ input[type=submit]{
 	font-family: monospace;
 	font-size: 13px;
 }
+
