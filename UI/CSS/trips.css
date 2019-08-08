@@ -1,0 +1,62 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url('../IMAGES/busart1.jpg');
+    background-color: #cccccc;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-auto-rows: minmax(100px, auto);
+    height: 100vh;
+    grid-gap: 0.2em;
+}
+.rightside{
+    grid-column: 1/2;
+    grid-row: 1/2;
+    
+}
+.leftside{
+    grid-column: 2/3;
+    grid-row: 1/2;
+    
+}
+
+table,h1{
+    font-family: monospace;
+    text-transform: uppercase;
+    font-size: 15px;
+    margin: 30px;
+    border-collapse: collapse;    
+}
+th,td{
+    padding: 10px;
+    text-align: center;
+    border: 2px solid black;
+    
+  }
+  h1{
+      font-size: 35px !important;
+      font-weight: bolder;
+      color: blue;
+      letter-spacing: 0.2em;
+  }
+  button{
+    font-size: 10px;
+    height: 30px;
+    width: 95px;
+    border: none;
+    text-align: center;
+    background-color: #1e90ff;
+    font-family: monospace;
+    font-size: 12px;
+}
+button:hover{
+    background: #083a61;
+    opacity: 0.7;
+}
