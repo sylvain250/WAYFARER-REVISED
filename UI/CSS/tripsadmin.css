@@ -1,35 +1,40 @@
 body{
     margin: 0;
     padding: 0;
-    background-image: url('../IMAGES/busart1.jpg');
-    background-color: #cccccc;
-    height: 500px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
 }
 .container{
-    display: grid;
-    grid-template-columns: 1fr 2fr;
+    display: flex;
+    flex-direction: column;
     height: 100vh;
     grid-gap: 0.2em;
 }
 .rightside{
-    grid-column: 1/2;
-    grid-row: 1/2;
+
+    flex-grow: 0;
+    width: 100%;
+    margin-bottom: 20px;
+    background-color: blue;
+
     
 }
 .leftside{
-    grid-column: 2/3;
-    grid-row: 1/2;
+    flex-grow: 1;
     
 }
+table{
+    width: 900px;
+    margin: 0 auto;
+}
+
+ 
+
 table,h1{
     font-family: monospace;
     text-transform: uppercase;
     font-size: 15px;
-    margin: 30px;
+
+
+
     border-collapse: collapse;    
 }
 th,td{
@@ -41,7 +46,10 @@ th,td{
   .rightside a{
     display: block;
     text-decoration: none;
-    color: blue ;
+
+    color: white ;
+
+
     padding: 10px 25px;  
     font-family: monospace;
     text-transform: uppercase;
@@ -49,9 +57,9 @@ th,td{
     font-weight: bolder;
     margin: 30px;
 }
-a:hover{
-    background-color: rgb(75, 4, 4);
-}
+
+
+
   h1{
       font-size: 35px !important;
       font-weight: bolder;
@@ -69,7 +77,11 @@ a:hover{
     width: 95px;
     border: none;
     text-align: center;
-    background-color: #1e90ff;
+
+    background-color: blue;
+    color: white;
+
+
     font-family: monospace;
     font-size: 12px;
 }
@@ -77,4 +89,6 @@ td a:hover{
     background: #083a61;
     opacity: 0.7 !important;
 }
-@media 
+
+ 
+
