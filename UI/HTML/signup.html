@@ -1,48 +1,40 @@
-<html lang="en">
+
+<!DOCTYPE html>
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="../CSS/signup.css">
-    <title>sign up</title>
+	<title>Login</title>
+	<link rel="stylesheet" type="text/css" href="../CSS/signup.css">
 </head>
 <body>
-    <div class="container">
-        <div class="right">
-
-        </div>
-        <div class="left">
-                <div id="signup">
-    
-                        <h2>Sign Up</h2>
-                        
-                        <p>Please fill in this form to create an account.</p>
-                        <hr>
-                        <form action="../HTML/userpanel.html">
-                        <label id="user"><b>firstname</b></label>
-                        <input type="text" placeholder="Enter Username" name="firstname" required>
-                        
-                        <label id="user"><b>lastname</b></label>
-                        <input type="text" placeholder="Enter Username" name="lastname" required>
-                       
-                        <label id="email"><b>Email</b></label>
-                        <input type="text" placeholder="Enter Email" name="email" required>
-                  
-                        <label id="psw"><b>Password</b></label>
-                        <input type="password" placeholder="Enter Password" name="psw" required>    
-                        <p>By creating an account you agree to our <a href="#" id="term" >Terms & conditions</a>.</p>
-                  
-                        <div id="btn">
-                          <button type="submit" id="sign">Sign Up >> </button>
-                        </div>
-                        <p>you already have account please <a href="../HTML/signin.html" id="goto">sign in here</a> </p>
-                        </form>
-                      </div>
-
-        </div>
-
-    </div>
+	<div id="container">
+    <h2>sign up</h2>
 
     
+		<form action="../HTML/adminpanel.html">
+        <label id="user"><b>firstname</b></label>
+       
+     <input type="text" placeholder="Enter Username" name="firstname" required>
+        
+      <label id="user"><b>lastname</b></label>
+      <input type="text" placeholder="Enter Username" name="lastname" required>
+
+			<label id="us-cont">Username</label>
+			<input type="text" id="username" placeholder="User Name" required="">
+
+			<label id="pass-cont">Password</label>
+
+			<input type="Password" id="password" placeholder="Password" required="">
+      <input type="submit" id="submit" value="signup >>>" >
+      <p>you already have account please <a href="../HTML/signin.html" id="goto">sign in here</a> </p>
+
+			
+		</form>
+
+		
+	</div>
+		
+	</script>
+
+
 </body>
 </html>
