@@ -1,0 +1,88 @@
+
+body {
+	
+	
+	background: #c4b792;
+	text-transform: uppercase;
+	background-image: url('../IMAGES/busart1.jpg');
+
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+#container{
+	width: 360px;
+	height: 550px;
+	border-radius: 10px;
+	margin: auto;
+	font-weight: bolder;
+	background-color: rgba(240, 248, 255, 0.315);
+	opacity: 0.9;
+	box-sizing: border-box;
+	padding: 40px;
+	margin-top: 100px;
+	
+
+}
+label,h2,p{
+   font-family: monospace !important;
+   font-size: 15px !important;
+}
+#us-cont,#pass-cont,h2{
+	text-align: center;
+	font-size: 13px;
+	
+	font-family: monospace;
+	
+	
+	
+
+}
+#us-cont,#pass-cont{
+	letter-spacing: 0.2em;
+
+}
+h2,label{
+	
+	color: blue;
+	font-weight: bolder;
+	text-transform: uppercase;
+
+
+}
+
+ input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  box-sizing: border-box;
+
+  display: inline-block;
+  border: none;
+  background: rgb(0,0,0,0.6);
+}
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #cdf;
+  outline: none;
+}
+input[type=submit]:hover{
+	background: #083a61;
+	opacity: 0.7;
+
+}
+input[type=submit]{
+	font-size: 10px;
+	height: 30px;
+	width: 80px;
+	display: block;
+	border: none;
+	color: white;
+	margin: 1em auto;
+	background-color:blue;
+	font-family: monospace;
+	font-size: 13px;
+}
+
