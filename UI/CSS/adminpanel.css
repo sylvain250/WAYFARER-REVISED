@@ -1,0 +1,142 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: flex;
+}
+.sidebar{
+    flex: 0 0 200px;
+    background: rgb(9, 11, 146);
+    height: 100vh;
+}
+.elements{
+    padding-left: 0px;
+    margin-top: 25px;
+}
+.sidebar img, a{
+    display: block;
+    text-decoration: none;
+    color: white !important;
+    padding: 10px 25px;  
+}
+.sidebar a:hover{
+    background-color: rgb(75, 4, 4);
+}
+p,a,label{
+    font-family: monospace;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: bolder;
+    
+}
+p,a{
+    opacity: 0.7;
+}
+.profile{
+    flex: 0 0 200px;
+    background-color: rgba(249,249,249,1.00);
+    height: 100vh;
+
+
+}
+.content-area{
+flex-grow: 1;
+height: 100vh;
+/*overflow-y: scroll;*/ 
+}
+img{
+    width: 40px;
+    height: 40px;
+   border-radius: 5px;
+}
+.profile-icon{
+    margin: 50px;
+}
+.profile-icon p{
+    text-align: center;
+}
+
+.details{
+   
+    font-size: 15px;
+}
+table{
+    font-family: monospace;
+    text-transform: uppercase;
+    font-size: 15px;
+    margin: 30px;
+    border-collapse: collapse;    
+}
+th,td{
+    padding: 10px;
+    text-align: center;
+    border: 2px solid black;
+    
+  }
+  caption{
+    font-family: monospace;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bolder;
+    margin-bottom: 15px;
+  }
+td img{
+    width:25px !important;
+    height: 25px !important;
+    opacity: 1 !important;
+}
+input{
+    width: 100%;
+    padding: 10px;
+    margin: 2px 0 2px 0;
+    box-sizing: border-box;
+  
+    display: inline-block;
+    border: none;
+    background: rgb(0,0,0,0.6);
+  }
+  input:focus {
+    background-color: #cdf;
+    outline: none;
+  }
+  
+  #trip {
+    padding: 2px;
+    margin: 30px; 
+    width: 50%;
+    height: 50%;
+  }
+  hr{
+    border: 1px solid #888;
+  
+  }
+  button[type=submit]{
+    font-size: 10px;
+    height: 35px;
+    width: 85px;
+    display: block;
+    border: none;
+    margin: 1em auto;
+    background-color: #1e90ff;
+    font-family: monospace;
+    font-size: 13px;
+  }
+  #tripsubmit:hover{
+    background: #083a61;
+    opacity: 0.7;
+  }
+  label{
+      color: blue !important;
+
+  }
+  @media (max-width:480px){
+    .container{
+        display: flex;
+        flex-direction: column;
+    }
+    table{
+        width: 10%;
+        
+    }
+  }
