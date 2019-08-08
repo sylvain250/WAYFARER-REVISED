@@ -2,6 +2,13 @@ body{
     margin: 0;
     padding: 0;
 }
+.logo{
+    width: 60px;
+    height: 60px;
+    border-radius:50%;
+}
+
+
 .container{
     display: flex;
 }
@@ -20,9 +27,9 @@ body{
     color: white !important;
     padding: 10px 25px;  
 }
-.sidebar a:hover{
-    background-color: rgb(75, 4, 4);
-}
+
+
+
 p,a,label{
     font-family: monospace;
     text-transform: uppercase;
@@ -41,9 +48,12 @@ p,a{
 
 }
 .content-area{
-flex-grow: 1;
-height: 100vh;
-/*overflow-y: scroll;*/ 
+
+flex-grow: 0;
+width: 700px;
+margin: 0 auto; 
+ 
+
 }
 img{
     width: 40px;
@@ -65,7 +75,7 @@ table{
     font-family: monospace;
     text-transform: uppercase;
     font-size: 15px;
-    margin: 30px;
+
     border-collapse: collapse;    
 }
 th,td{
@@ -90,27 +100,24 @@ input{
     width: 100%;
     padding: 10px;
     margin: 2px 0 2px 0;
-    box-sizing: border-box;
-  
-    display: inline-block;
     border: none;
-    background: rgb(0,0,0,0.6);
+    border-bottom: 1px solid blue;
+
+    
   }
   input:focus {
-    background-color: #cdf;
+
     outline: none;
   }
   
   #trip {
-    padding: 2px;
-    margin: 30px; 
+
+    padding: 2px; 
     width: 50%;
     height: 50%;
   }
-  hr{
-    border: 1px solid #888;
-  
-  }
+
+
   button[type=submit]{
     font-size: 10px;
     height: 35px;
@@ -118,7 +125,10 @@ input{
     display: block;
     border: none;
     margin: 1em auto;
-    background-color: #1e90ff;
+
+    background-color:blue;
+    color: white;
+
     font-family: monospace;
     font-size: 13px;
   }
