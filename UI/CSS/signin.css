@@ -1,0 +1,63 @@
+
+
+body{
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
+    font-family: monospace;
+    background-image: url('../IMAGES/busart1.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    height: 100vh;
+}
+.rightside{
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+.leftside{
+    grid-column: 2/3;
+    grid-row: 1/2;
+    width: 260px;
+	height: 350px;
+	margin: auto;
+	box-sizing: border-box;
+    padding: 40px;
+    color: blue;
+    font-weight: bolder;	
+}
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 22px 0;
+    box-sizing: border-box;
+  
+    display: inline-block;
+    border: none;
+    background: rgb(0,0,0,0.6);
+  }
+  input[type=text]:focus, input[type=password]:focus {
+    background-color: #cdf;
+    outline: none;
+  }
+  input[type=submit]:hover{
+      background: #083a61;
+      opacity: 0.7;
+  
+  }
+  input[type=submit]{
+      font-size: 10px;
+      height: 30px;
+      width: 80px;
+      display: block;
+      border: none;
+      margin: 1em auto;
+      background-color: #1e90ff;
+      font-family: monospace;
+      font-size: 13px;
+  }

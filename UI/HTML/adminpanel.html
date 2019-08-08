@@ -1,0 +1,119 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../CSS/adminpanel.css">
+    <title>adminPanel</title>
+</head>
+<body>
+     <div class="container">
+<div class="sidebar">
+
+<div class="elements">
+<a href="../HTML/index.html">wayfarer</a>
+<a href="#table">Bookings</a>
+<a href="#trip">create trip</a>
+</div>
+
+</div>
+<div class="content-area">
+        <table id="table">
+      <caption>Bookings</caption>
+                    
+                <tr>
+                    <th>trip id</th>
+                    <th>bus licence number</th>
+                    <th>firstname</th>
+                    <th>lastname</th>
+                    <th>trip date</th>
+                    <th>useremail</th>
+                    
+                    
+        
+        
+        
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>RAD321</td>
+                    <td>carter</td>
+                    <td>007</td>
+                    <td>27/07/2019</td>
+                    <td>carter007@gmail.com</td>
+                    
+            
+                </tr>
+                <tr>
+                         
+                        <td>2</td>
+                        <td>RAD604</td>
+                        <td>carter</td>
+                        <td>007</td>
+                        <td>29/07/2019</td>
+                        <td>carter007@gmail.com</td>
+                        
+                
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>RAD604</td>
+                        <td>john</td>
+                        <td>smith</td>
+                        <td>30/07/2019</td>
+                        <td>johnsmith@gmail.com</td>
+                    </tr>
+            </table>
+            <div id="createtrip">
+                    <div id="trip">
+      
+                            <p>Please fill out this form to create a trip.</p>
+                            <hr>
+                            <form>
+                             <label id="user"><b>id</b></label>
+                             <input type="text" placeholder="enter trip id"  required>
+                                   
+                            <label id="user"><b>origin</b></label>
+                            <input type="text" placeholder="Enter Origin"  required>
+                           
+                            <label id="email"><b>destination</b></label>
+                            <input type="text" placeholder="Enter Destination"  required>
+
+                            <label id="cost"><b>cost</b></label>
+                            <input type="number" placeholder="Enter Cost"  required>
+
+                            <label id="user"><b>trip date</b></label>
+                            <input type="date" placeholder="Enter date"  required>
+                           
+                      
+                            
+                      
+                            <div id="btn">
+                              <button type="submit" id="tripsubmit">submit >> </button>
+                            </div>
+                       
+                            </form>
+                          </div>
+                
+            </div>
+
+
+</div>
+<div class="profile">
+<div class="profile-icon">
+   <a href=""><img src="../IMAGES/avatar.png" alt="profile avatar"></a> 
+    <p>fullName</p>
+<div class="details">
+    <a href="../HTML/tripsadmin.html"><img src="../IMAGES/list.png" alt="list"></a> 
+ <p>alltrips</p>
+</div>
+</div>
+    
+</div>
+</div>
+
+
+    
+
+</body>
+</html>
