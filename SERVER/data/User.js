@@ -41,6 +41,7 @@ class User{
 			firstName: this.first_name,
 			lastName: this.last_name,
 			mail: this.email,
+			isAdmin: this.is_admin
 		}
 
 

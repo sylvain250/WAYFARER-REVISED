@@ -1,3 +1,4 @@
+import User from '../data/User';
 class Admin extends User{
 	constructor(){
 	super();
@@ -9,6 +10,17 @@ class Admin extends User{
 	
 	letscancelTrip(trip){
 		this.storage.cancelTrip(trip);
+
+	}
+	getTrip(){
+		return {
+			trip_id:this.trip_id,
+			seating_capacity:this.seating_capacity,
+			 origin: this.origin,
+			 destination:this.destination,
+			 trip_date:this.trip_date,
+			 fare:this.fare
+		}
 
 	}
 

@@ -1,10 +1,10 @@
 import User from '../data/User';
 import { generateToken } from '../helpers/token';
 
+
+
 export const signup = (req,res) => {
     const user = new User();
-    console.log('reqData: ');
-    console.log(req.body);
     //get the request data
         let email = req.body.email;
         let first_name = req.body.first_name;

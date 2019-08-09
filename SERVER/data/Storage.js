@@ -4,7 +4,29 @@ class Storage {
   constructor() {
 
     this.users = [];
-    this.trips = [];
+    this.trips = [{id:1,
+      seating_capacity:40,
+      origin:'kigali',
+      destination:'bujumbura',
+      trip_date: Date,
+      fare: 20,
+      status:2.3},
+
+      {id:3,
+        seating_capacity:40,
+        origin:'kigali',
+        destination:'butare',
+        trip_date: Date,
+        fare: 40,
+        status:2.3},
+        {id:4,
+          seating_capacity:40,
+          origin:'kigali',
+          destination:'muhanga',
+          trip_date: Date,
+          fare: 60,
+          status:2.3
+        }];
     this.bookings = [];
   }
 
