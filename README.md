@@ -1,10 +1,9 @@
-# WAYFARER-REVISED
-
 A public bus transportation booking service.
 
 User Interface WayFarer
 HTML.
 CSS.
+
 
 ENDPOINTS
 POST /auth/signup User sign up
@@ -13,11 +12,16 @@ POST /trips Create a trip
 GET /trips Fetch all created trips
 GET /trips/:id Get a specific trips by id
 PATCH /trips/:id Cancel a trip
+
+
 Backend language
+
 *Javascript*
 Backend server and framework
  *NodeJS*  *Express*
-``
+
+
+
 Requirements
  [Node Package Installer - NPM] 
 Installing
