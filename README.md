@@ -28,5 +28,6 @@ Installing
 After cloning the repo, cd to the base directory then type the command
 
 > npm install
+
 Current version
 Version 1.0.0
