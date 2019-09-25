@@ -1,10 +1,10 @@
 A public bus transportation booking service.
-# User Interface WayFarer
+## User Interface WayFarer
 HTML.
 CSS.
 
 
-# Find-it-API
+# wayFarer-API
 REST API endpoint for a public bus transportation booking service.
 
 ## ENDPOINTS
