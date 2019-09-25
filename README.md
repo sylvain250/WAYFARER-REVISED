@@ -1,19 +1,20 @@
+# WAYFARER
 A public bus transportation booking service.
-## User Interface WayFarer
+## USER INTERFACE WayFarer
 HTML.
 CSS.
 
 
-# wayFarer-API
+## wayFarer-API
 REST API endpoints for a public bus transportation booking service.
 
 ## ENDPOINTS
 * POST /auth/signup User sign up
 * POST /auth/signin User Authentication
 * POST /trips Create a trip
-  GET /trips Fetch all created trips
-  GET /trips/:id Get a specific trips by id
-  PATCH /trips/:id Cancel a trip
+* GET /trips Fetch all created trips
+* GET /trips/:id Get a specific trips by id
+* PATCH /trips/:id Cancel a trip
 
 ### Backend language
 ```
